@@ -51,17 +51,14 @@ Tap **▶ TRACK**, allow camera access, and you're live.
 
 iOS Safari requires HTTPS to access the camera. The server supports automatic HTTPS tunneling via [ngrok](https://ngrok.com) (free).
 
-1. Sign up free at [ngrok.com](https://ngrok.com) and copy your **Authtoken**
-2. Copy `.env.example` to `.env`:
-   ```bash
-   cp .env.example .env
-   ```
-3. Paste your token into `.env`:
-   ```
+1. Sign up for free at [ngrok.com](https://ngrok.com) and copy your **Authtoken**. *(Note: the `ngrok config add-authtoken` command will NOT work for this app)*
+2. In the main `VRBody` folder, manually **create a new text file** and name it EXACTLY `.env` (don't forget the dot at the beginning, and make sure it doesn't end in `.txt`).
+3. Open the new `.env` file in Notepad (or any text editor) and paste your token inside like this:
+   ```text
    NGROK_AUTHTOKEN=your_token_here
    ```
-4. Run `npm start` — a second QR code with an `https://` URL will appear
-5. **Scan the HTTPS QR code** on your iPhone
+4. Save the file and run `npm start` (or restart the server if it's already running).
+5. A second QR code with an `https://` URL will appear. **Scan this HTTPS QR code** on your iPhone.
 
 ---
 
