@@ -1,3 +1,5 @@
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/lagkitty)
+
 # 🕹️ VRBody — Phone Full Body Tracker for VRChat
 
 Use your **phone's camera + AI pose detection** to drive full body tracking in VRChat — no hardware trackers needed.
