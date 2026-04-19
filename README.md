@@ -24,8 +24,8 @@ Use your **phone's camera + AI pose detection** to drive full body tracking in V
 ### 1 — Install & run the server
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/vrbody.git
-cd vrbody
+download the folder
+cd VRBody
 npm install
 npm start
 ```
